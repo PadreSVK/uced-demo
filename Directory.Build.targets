@@ -1,0 +1,9 @@
+<Project>
+    <PropertyGroup>
+        <MyProperty>hahahahahha</MyProperty>
+    </PropertyGroup>
+
+<Target Name="Haha"  BeforeTargets="Build">
+     <Message Text="text to output ALWAYS" Importance="high" />
+</Target>
+</Project>
